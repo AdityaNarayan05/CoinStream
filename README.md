@@ -40,3 +40,8 @@ The project is distributed under the [MIT License](https://chat.openai.com/LICEN
 For any questions, suggestions, or issues, you can contact the project maintainer, Aditya Narayan, at [nlaxmi886@gmail.com](mailto:aditya@example.com).
 
 Thank you for using CoinStream! We hope you find it helpful for keeping track of cryptocurrency prices. Happy crypto-trading!
+
+## Check out some screenshots of the application here:
+![Screenshot 2023-08-05 013841](https://github.com/AdityaNarayan05/CoinStream/assets/85832994/88b25d97-7336-499f-a392-5abe9c6851f0)
+
+![Screenshot 2023-08-05 013910](https://github.com/AdityaNarayan05/CoinStream/assets/85832994/ae7974cf-80ad-4cfe-ab36-4581f2bc7e39)
