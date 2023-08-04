@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CoinStream</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="stylesheet.css" />
 </head>
+
 <body>
     <div class="container">
         <div class="row justify-content-center">
@@ -55,11 +59,37 @@
                                 <option value="ZRX">ZRX</option>
                                 <option value="TUSD">TUSD</option>
                                 <option value="REP">REP</option>
+                            </select>
                         </div>
+                        <button type="submit" class="col-12 btn btn-primary">
+                            Get Price
+                        </button>
                     </form>
                 </div>
             </div>
+            <div class="col-md-7 text-center row justify-content-center align-items-center">
+                <table class="p-4 col-md-7 m-4" border="2px" style="background-color: white; font-weight: 700"
+                    id="tableResult"></table>
+            </div>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="App.js"></script>
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/25997205.js"></script>
+    <!-- End of HubSpot Embed Code -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3867VNL3VW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-3867VNL3VW");
+    </script>
 </body>
+
 </html>
