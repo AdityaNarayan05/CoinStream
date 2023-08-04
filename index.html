@@ -2,94 +2,58 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CoinStream</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="stylesheet.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--     css file link -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Crypto Track</title>
 </head>
 
 <body>
     <div class="container">
         <div class="row justify-content-center">
+            <!--             heading and subheading -->
             <h1 class="col-md-7 text-center mt-2">CoinStream</h1>
-            <h4 class="col-md-7 text-center mt-2">By-Aditya Narayan Jaiswal</h4>
-            <div>
-                <div>
-                    <form action="">
-                        <div>
-                            <label for="coin">Select Coin</label>
-                            <select name="coin" id="coin">
-                                <option value="BTC">BTC</option>
-                                <option value="ETH">ETH</option>
-                                <option value="LTC">LTC</option>
-                                <option value="XRP">XRP</option>
-                                <option value="BCH">BCH</option>
-                                <option value="BNB">BNB</option>
-                                <option value="USDT">USDT</option>
-                                <option value="EOS">EOS</option>
-                                <option value="BSV">BSV</option>
-                                <option value="XLM">XLM</option>
-                                <option value="ADA">ADA</option>
-                                <option value="TRX">TRX</option>
-                                <option value="XMR">XMR</option>
-                                <option value="LEO">LEO</option>
-                                <option value="HT">HT</option>
-                                <option value="DASH">DASH</option>
-                                <option value="LINK">LINK</option>
-                                <option value="NEO">NEO</option>
-                                <option value="MIOTA">MIOTA</option>
-                                <option value="ATOM">ATOM</option>
-                                <option value="ETC">ETC</option>
-                                <option value="CRO">CRO</option>
-                                <option value="MKR">MKR</option>
-                                <option value="XEM">XEM</option>
-                                <option value="ONT">ONT</option>
-                                <option value="BAT">BAT</option>
-                                <option value="ZEC">ZEC</option>
-                                <option value="DOGE">DOGE</option>
-                                <option value="VET">VET</option>
-                                <option value="USDC">USDC</option>
-                                <option value="QTUM">QTUM</option>
-                                <option value="PAX">PAX</option>
-                                <option value="DCR">DCR</option>
-                                <option value="BTG">BTG</option>
-                                <option value="LSK">LSK</option>
-                                <option value="ZRX">ZRX</option>
-                                <option value="TUSD">TUSD</option>
-                                <option value="REP">REP</option>
-                            </select>
+            <div class="col-md-6 row justify-content-center main fix" id="allContaint">
+                <div class="col-10">
+                    <!--      form -->
+                    <form action="" id="CoinSearchForm">
+                        <div class="form-row">
+                            <div class="col-12 form-group">
+                                <label for="xyz" style="font-weight: 700;">Coin Type</label>
+                                <!--  drop down menu of crypto currencies -->
+                                <select name="CoinType" class="form-control" id="xyz">
+                                    <option value="bitcoin">Bitcoin</option>
+                                    <option value="ethereum">Ethereum</option>
+                                    <option value="tether">Tether</option>
+                                    <option value="dogecoin">Dogecoin</option>
+                                    <option value="ripple">Ripple</option>
+                                    <option value="solana">Solana</option>
+                                    <option value="polkadot">Polkadot</option>
+                                    <option value="dai">Dai</option>
+                                    <option value="gala">Gala</option>
+                                    <option value="terra">Terra</option>
+                                    <option value="helium">Helium</option>
+                                    <option value="neo">Neo</option>
+                                    <option value="cosmos">Cosmos</option>
+                                    <option value="litecoin">Litecoin</option>
+                                    <option value="monero">Monero</option>
+                                    <option value="tron">Tron</option>
+                                </select>
+                            </div>
                         </div>
-                        <button type="submit" class="col-12 btn btn-primary">
-                            Get Price
-                        </button>
+                        <button type="submit" class="col-12 btn btn-primary">Get Price</button>
                     </form>
                 </div>
             </div>
             <div class="col-md-7 text-center row justify-content-center align-items-center">
-                <table class="p-4 col-md-7 m-4" border="2px" style="background-color: white; font-weight: 700"
-                    id="tableResult"></table>
+                <footer class="footer">
+                    <p>Created with ❤️ by Aditya Narayan</p>
+                </footer>
             </div>
         </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="App.js"></script>
-    <!-- Start of HubSpot Embed Code -->
-    <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/25997205.js"></script>
-    <!-- End of HubSpot Embed Code -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3867VNL3VW"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-
-        gtag("config", "G-3867VNL3VW");
-    </script>
 </body>
 
 </html>
